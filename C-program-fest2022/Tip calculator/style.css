@@ -1,0 +1,61 @@
+.tipCalculator {
+  height: 80vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+#tip {
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  background-color: mediumseagreen;
+  flex-direction: column;
+}
+#tip > input {
+  width: 50vw;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding: 15px;
+  font-size: large;
+  outline-style: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+#tip button {
+  object-fit: contain;
+  width: 15vw;
+  margin-top: 20px;
+  align-items: center;
+  display: grid;
+  text-transform: inherit;
+  margin-left: 3vw;
+  place-items: center;
+  box-shadow: 5px 5px;
+  cursor: pointer;
+  background-color: rgb(53, 158, 193);
+  padding: 8px;
+}
+#day {
+  width: 50vw;
+  font-size: large;
+  margin-bottom: 20px;
+  padding: 20px;
+  outline-style: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+}
+#final {
+  display: block;
+  font-size: large;
+  margin-top: 10px;
+  font-weight: bolder;
+  z-index: 1;
+  padding: 5px;
+}
+#header {
+  padding: 5px;
+  border-radius: 10px;
+}

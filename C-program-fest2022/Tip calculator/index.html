@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="tipCalculator">
+            <div id="tip">
+                <h1 id="header"></h1>
+                <div id="final"></div>
+                <h1>Total amount of day</h1>
+                <input id="amount" type ="number" min=0 required></input>
+                <h1>Total number of workers</h1>
+                <input id="people" type="number" min=0 required>
+                <h1>Choose the tip percentage(%)</h1>
+                <select id="day" name="Condition of day">
+                    <option value = "8">8%</option>
+                    <option value = " 5"> 5%</option>
+                    <option value = "2">2%</option>
+                </select>
+               
+                <button  id="button" >CALCULATE</button>
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
