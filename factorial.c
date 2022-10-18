@@ -1,21 +1,21 @@
-/*calculate factorial value of an integer using a function*/
 #include<stdio.h>
-int fact(int);
+
+int factorial(int n)
+{
+    if (n==1 || n==0)
+    {
+    return 1;
+    }
+    else
+    {
+        return n*factorial(n-1);
+    }
+}
+
 int main()
 {
-	int num;
-	int factorial;
-printf("\nEnter a Number:");
-scanf("%d", &num );
-factorial = fact(num);
-printf("Factorial of %d = %ld\n",num,factorial);
-return 0;
-}
-int fact(int num)
-{
-    int x;
-    int factorial = 1;
-    for(x=1; x<=num; x++)
-    factorial = factorial*x ;
-    return (factorial);
+    int n;
+    scanf("%d",&n);
+    printf("Factorial of no is : %d",factorial(n));
+    return 0;
 }
