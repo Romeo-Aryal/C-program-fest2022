@@ -1,0 +1,24 @@
+MIME-Version: 1.0
+Date: Sun, 23 Oct 2022 19:15:11 +0530
+From: Sanjukta Goswami <sanjukta1goswami@gmail.com>
+Subject:
+Message-ID:
+ <CADSXYvjq6oV4fCreFybQzH2jsQhszcSNRmqqq6h-9BahH8x_gw@mail.gmail.com>
+To: "annukri5110nwd@gmail.com" <annukri5110nwd@gmail.com>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<div dir=3D"ltr"><pre class=3D"gmail-aLF-aPX-K0-aPE" style=3D"font-family:&=
+quot;Courier New&quot;,Courier,monospace,arial,sans-serif; margin-top:0px; =
+margin-bottom:0px; white-space:pre-wrap; color:rgb(0,0,0); font-size:14px">=
+#include&lt;stdio.h&gt;
+int main(){
+    int f=3D1,i,a;
+    printf(&quot;Enter a number for find factorial=3D&quot;);
+    scanf(&quot;%d&quot;,&amp;a);
+    for(i=3D1;i&lt;=3Da;i&#43;&#43;){
+        f=3Df*i;
+    }
+    printf(&quot;Factorial of %d =3D %d&quot;,a,f);
+return 0;
+}</pre></div>
